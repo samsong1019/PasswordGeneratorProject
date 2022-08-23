@@ -8,4 +8,6 @@ So at first this was very difficult for me, and I was making changes to the HTML
 I made sure a customer chooses atleast one and if all values were false then they will get a prompt telling them they need atleast one character type. 
 stored boolean values to combine all of them. and return password choices
 to choose a random element from an array i used math.floor(math.random( * arr.length)) arr[randindex] to return a random element
-made a function to generate password options would get the password combo and i 
+made a function to generate password options that would store results charater types and included characters in an array, then made an if statment that has if it has syymbols, number, lowercase, and upper case it would get random elements for each.
+made a for loop to make get random characters repetivily by itterating through an array. this way it does not repeat itself *(DRY principle) 
+the add event listener for click happens when someone clicks the generate password button and it runs the function write passsword .
